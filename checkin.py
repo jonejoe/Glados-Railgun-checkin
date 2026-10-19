@@ -730,5 +730,9 @@ def main():
         sys.exit(exit_code)
 
 
+# Patch: add glados.network (user's GLaDOS account domain) to check-in domains
+Config.DOMAINS.append("glados.network")
+
+
 if __name__ == "__main__":
     main()
